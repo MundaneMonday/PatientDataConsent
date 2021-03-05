@@ -1,7 +1,6 @@
 {
   "name": "patientdataconsent",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +14,14 @@
     "express-handlebars": "^5.2.1",
     "install": "^0.13.0",
     "npm": "^7.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MundaneMonday/PatientDataConsent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MundaneMonday/PatientDataConsent/issues"
+  },
+  "homepage": "https://github.com/MundaneMonday/PatientDataConsent#readme",
+  "description": ""
 }

@@ -1,0 +1,22 @@
+
+
+{{#if isClinician}}
+
+<ul>{{#each HealthInfo}}
+   
+    <li>
+    {{ID}}. {{f_name}} {{l_name}}
+    <br>
+    Blood Type : {{BloodType}}
+    <br><br>
+
+    </li>
+    
+    {{/each}}
+
+    <p>
+{{{Clinician}}}
+    </p>
+
+</ul>
+{{/if}}
